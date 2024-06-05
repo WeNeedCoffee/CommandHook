@@ -11,14 +11,14 @@ import net.minecraft.world.level.World;
 import net.minecraft.world.level.block.entity.TileEntityCommand;
 import org.bitbucket._newage.commandhook.mapping.api.AMapping;
 import org.bukkit.block.Block;
-import org.bukkit.craftbukkit.v1_18_R2.CraftWorld;
+import org.bukkit.craftbukkit.v1_20_R4.CraftWorld;
 import org.bukkit.entity.Entity;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class NmsV1_18_R2 extends AMapping {
+public class NmsV1_20_R4 extends AMapping {
 
     @Override
     public List<Entity> getEntitiesFromSelector(String selector, Block commandBlock) {
@@ -47,7 +47,7 @@ public class NmsV1_18_R2 extends AMapping {
         BlockPosition blockPosition = new BlockPosition(block.getX(), block.getY(), block.getZ());
 
         TileEntityCommand tileEntityCommand = (TileEntityCommand) world.getBlockEntity(blockPosition, true);
-        CommandBlockListenerAbstract commandBlockListenerAbstract = tileEntityCommand.c();
+        CommandBlockListenerAbstract commandBlockListenerAbstract = tileEntityCommand.b();
         return commandBlockListenerAbstract.i();
     }
 

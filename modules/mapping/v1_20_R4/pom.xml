@@ -7,15 +7,15 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <name>CommandHook - Mapping 1.13_R1</name>
-  <artifactId>mapping-v1_13_R1</artifactId>
+  <name>CommandHook - Mapping 1.20.6</name>
+  <artifactId>mapping-v1_20_R4</artifactId>
   <packaging>jar</packaging>
 
   <dependencies>
     <dependency>
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot</artifactId>
-      <version>1.13-R0.1-SNAPSHOT</version>
+      <version>1.20.6-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>

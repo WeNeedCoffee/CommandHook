@@ -10,12 +10,12 @@
   <artifactId>plugin</artifactId>
   <name>CommandHook - Plugin</name>
   <packaging>jar</packaging>
-  <version>2.4.2</version>
+  <version>2.4.3-COFFEE</version>
 
   <properties>
     <minecraft.plugin.name>CommandHook</minecraft.plugin.name>
-    <minecraft.plugin.api-version>1.13</minecraft.plugin.api-version>
-    <minecraft.plugin.contributors>[_NewAge]</minecraft.plugin.contributors>
+    <minecraft.plugin.api-version>1.20.6</minecraft.plugin.api-version>
+    <minecraft.plugin.contributors>[_NewAge, Dalethium]</minecraft.plugin.contributors>
     <minecraft.plugin.main-class>org.bitbucket._newage.commandhook.CommandHook</minecraft.plugin.main-class>
   </properties>
 
@@ -23,19 +23,10 @@
     <dependency>
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot-api</artifactId>
-      <version>1.20.2-R0.1-SNAPSHOT</version>
+      <version>1.20.6-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
 
-    <dependency>
-      <groupId>io.papermc.paper</groupId>
-      <artifactId>paper-server</artifactId>
-      <version>1.20.2-R0.1-SNAPSHOT</version>
-      <classifier>mojang-mapped</classifier>
-      <scope>runtime</scope>
-      <type>jar</type>
-      <optional>true</optional>
-    </dependency>
 
     <dependency>
       <groupId>com.mojang</groupId>
